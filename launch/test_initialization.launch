@@ -1,0 +1,7 @@
+<launch>
+    
+    <include file="$(find imap)/launch/server.launch" />
+
+    <node name="publish_imap_type" pkg="imap" type="publish_imap_type.py" />
+
+</launch>
